@@ -1,3 +1,7 @@
+reference:
+https://dialogflow.com/docs/getting-started/building-your-first-agent
+https://cloud.google.com/functions/docs/tutorials/http
+
 gcloud beta functions deploy readPage --stage-bucket staging.onlinerepeater.appspot.com --trigger-http
 
 curl "https://us-central1-onlinerepeater.cloudfunctions.net/readPage"

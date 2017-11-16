@@ -1,0 +1,9 @@
+gcloud beta functions deploy onlinerepeater --stage-bucket staging.onlinerepeater.appspot.com --trigger-http
+
+https://us-central1-onlinerepeater.cloudfunctions.net/onlinerepeater
+
+
+
+gcloud beta functions deploy weatherWebhook --stage-bucket staging.onlinerepeater.appspot.com --trigger-http
+
+https://us-central1-onlinerepeater.cloudfunctions.net/weatherWebhook

@@ -1,0 +1,3 @@
+gcloud beta functions deploy readPage --stage-bucket staging.onlinerepeater.appspot.com --trigger-http
+
+curl "https://us-central1-onlinerepeater.cloudfunctions.net/readPage"

@@ -10,7 +10,7 @@ const request = require('request');
  */
 exports.readPage = (req, res) => {
 
-  var webPage = 'https://jiabailie.github.io/';
+  var webPage = 'https://jiabailie.github.io/gaction.html';
   request(webPage, function(error, response, body) {
     res.send(JSON.stringify({ 'speech': body, 'displayText': body}));
   });
